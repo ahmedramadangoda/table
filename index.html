@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="table.css">
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- font-awe-some -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google-fonts-cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">اليوم</th>
+                <th scope="col" class="gz"> مراجعة الاجزاء</th>
+                <th scope="col" class="madi">
+                    ماضى
+                    (
+                        <input type="text" placeholder="اسم السورة" style="width: 70px !important ;">
+                    )
+                    
+                </th>
+                <th scope="col" class="mraget">
+                    مراجعة
+                    (
+                        <input type="text" placeholder="اسم السورة" style="width: 70px !important ;">
+                    )
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">السبت </th>
+                <td class="gz">
+                    <input type="text" placeholder="الجزء الاول">
+                </td>
+                <td class="madi">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+                <td class="mraget">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"> الاحد</th>
+                <td class="gz">
+                    <input type="text" placeholder="الجزء الثانى">
+                </td>
+                <td class="madi">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+                <td class="mraget">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"> الاثنين</th>
+                <td class="gz">
+                    <input type="text" placeholder="الجزء الثالث">
+                </td>
+                <td class="madi">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+                <td class="mraget">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"> الثلاثاء</th>
+                <td class="gz">
+                    <input type="text" placeholder="الجزء الرابع">
+                </td>
+                <td class="madi">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+                <td class="mraget">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"> الاربعاء</th>
+                <td class="gz">
+                    <input type="text" placeholder="الجزء الخامس">
+                </td>
+                <td class="madi">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+                <td class="mraget">
+                    الايه
+                    (
+                    <input type="text" placeholder=" 0 - 500 " style="width: 80px !important ;">
+                    )
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"> الخميس</th>
+                <td colspan="3" class="text-center madi">
+                    <input type="text" placeholder=" الاختبار " style="width: 80% !important ;">
+                </td>
+                <!-- <td>@twitter</td> -->
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
